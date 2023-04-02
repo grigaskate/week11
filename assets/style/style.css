@@ -30,3 +30,8 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.shoppping-cart__priceSum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

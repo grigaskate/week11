@@ -33,7 +33,7 @@
             <p>Количество: 1</p>
           </div>
           <div class="shoppping-cart__card_price">
-            <h3>2 119,99 BYN</h3>
+            <h3><output id="price1">2119,99</output> BYN</h3>
           </div>
         </div>
         <div class="shoppping-cart__card">
@@ -49,7 +49,7 @@
             <p>Количество: 1</p>
           </div>
           <div class="shoppping-cart__card_price">
-            <h3>1 289,99 BYN</h3>
+            <h3><output id="price2">1289,99</output> BYN</h3>
           </div>
         </div>
         <div class="shoppping-cart__card">
@@ -65,7 +65,7 @@
             <p>Количество: 1</p>
           </div>
           <div class="shoppping-cart__card_price">
-            <h3>1 379,99 BYN</h3>
+            <h3><output id="price3">1379,99</output> BYN</h3>
           </div>
         </div>
         <div class="shoppping-cart__card">
@@ -81,12 +81,20 @@
             <p>Количество: 1</p>
           </div>
           <div class="shoppping-cart__card_price">
-            <h3>2 219,99 BYN</h3>
+            <h3><output id="price4">1219,99</output> BYN</h3>
           </div>
         </div>
-        <button class="shoppping-cart__button">
-          Использовать купон на 20%
-        </button>
+      </div>
+      <div shoppping-cart__priceSum>
+        <div>
+          <button class="shoppping-cart__button" onclick="clickSale20()">
+            Использовать купон на 20%
+          </button>
+        </div>
+        <div>
+          <h2>Итого:</h2>
+          <h3 id="priceSum"></h3>
+        </div>
       </div>
     </div>
     <script src="index.js"></script>
