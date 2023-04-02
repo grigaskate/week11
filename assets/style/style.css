@@ -22,16 +22,17 @@
   margin: 10px 50px 10px 50px;
 }
 
-.shoppping-cart__button {
+.shoppping-cart__btn {
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 15px;
   border-radius: 3px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .shoppping-cart__priceSum {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
 }
